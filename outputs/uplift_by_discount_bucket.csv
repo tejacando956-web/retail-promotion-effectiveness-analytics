@@ -1,0 +1,5 @@
+discount_pct,campaigns,avg_uplift_pct,incremental_units,incremental_revenue,incremental_gross_profit,discount_cost,promo_roi,margin_pct_baseline,margin_pct_promo,avg_post_promo_dip_pct
+10,3.0,30.54,520.0,292233.85,18428.62,218956.26,0.084,47.08,41.19,17.96
+20,5.0,54.46,2407.0,613359.53,-48671.32,640375.31,-0.076,45.31,31.63,18.77
+30,2.0,106.12,1422.0,260857.59,-56729.0,388684.99,-0.146,53.42,33.43,16.54
+40,2.0,55.89,1070.0,334351.31,-340110.75,878602.14,-0.387,37.86,-3.57,19.26

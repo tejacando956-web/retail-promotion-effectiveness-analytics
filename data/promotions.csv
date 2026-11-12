@@ -1,0 +1,13 @@
+promo_id,campaign_name,scope_type,scope_value,start_date,end_date,discount_pct,promo_type
+P01,Winter TV Sale 10%,Category,TVs,2025-01-13,2025-01-22,10,Sale Event
+P02,Audio Fest 20%,Category,Audio,2025-01-20,2025-01-29,20,Sale Event
+P03,Bundle & Save Accessories 20%,Category,Accessories,2025-02-10,2025-02-16,20,Bundle
+P04,Laptop Days 10%,Category,Laptops,2025-02-17,2025-02-26,10,Sale Event
+P05,Spring TV Event 20%,Category,TVs,2025-03-03,2025-03-12,20,Sale Event
+P06,Home Refresh Appliances 10%,Category,Appliances,2025-03-10,2025-03-19,10,Sale Event
+P07,Audio Clearance 30%,Category,Audio,2025-03-24,2025-03-30,30,Clearance
+P08,Spring Laptop Sale 20%,Category,Laptops,2025-04-07,2025-04-16,20,Sale Event
+P09,Accessories Mega Clearance 40%,Category,Accessories,2025-04-21,2025-04-30,40,Clearance
+P10,Big Screen Event 30%,Category,TVs,2025-05-05,2025-05-14,30,Sale Event
+P11,Kitchen Bundle Appliances 20%,Category,Appliances,2025-05-19,2025-05-25,20,Bundle
+P12,Laptop Clearance 40%,Category,Laptops,2025-06-09,2025-06-18,40,Clearance

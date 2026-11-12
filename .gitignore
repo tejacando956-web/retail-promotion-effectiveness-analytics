@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+# data/, outputs/ and images/ are committed intentionally - the repo must run
+# and show results exactly as documented.

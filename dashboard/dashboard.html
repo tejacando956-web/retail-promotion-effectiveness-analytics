@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Promotion Effectiveness &amp; Price Analytics — Dashboard</title>
+<style>
+body{font-family:system-ui,Arial,sans-serif;margin:0;background:#f6f8fb;color:#1c2733}
+header{background:#37474f;color:#fff;padding:26px 20px} header h1{margin:0 0 6px;font-size:24px}
+main{max-width:1080px;margin:0 auto;padding:20px 16px 50px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:16px 0}
+.kpi{background:#fff;border-radius:10px;padding:12px;text-align:center;box-shadow:0 1px 6px rgba(0,0,0,.08)}
+.kpi b{display:block;font-size:17px;color:#2e7d32} .kpi small{color:#607080}
+img.chart{width:100%;background:#fff;border-radius:10px;margin:10px 0;box-shadow:0 1px 6px rgba(0,0,0,.08)}
+table{width:100%;border-collapse:collapse;background:#fff;font-size:13px;margin:10px 0 24px}
+th,td{padding:6px 8px;border-bottom:1px solid #e0e6ec;text-align:right} th{color:#37474f;text-align:right}
+td:first-child,th:first-child{text-align:left}
+.note{color:#607080;font-size:13px}
+</style></head><body>
+<header><h1>Promotion Effectiveness &amp; Price Analytics</h1>
+<p>Discount depth, sales uplift and margin impact — 12 campaigns, 180 days, 40 SKUs × 5 stores. Portfolio project, synthetic data.</p></header>
+<main>
+<div class="kpis"><div class="kpi"><b>$38,581,528</b><small>Total Revenue (180 days)</small></div>
+<div class="kpi"><b>102,737</b><small>Units Sold</small></div>
+<div class="kpi"><b>12</b><small>Campaigns Analysed</small></div>
+<div class="kpi"><b>$1,500,802</b><small>Incremental Revenue from Promos</small></div>
+<div class="kpi"><b>$2,126,619</b><small>Discount Cost Given Away</small></div>
+<div class="kpi"><b>-0.201</b><small>Overall Promo ROI</small></div>
+<div class="kpi"><b>60.38%</b><small>Avg Unit Uplift</small></div>
+<div class="kpi"><b>45.01% → 24.11%</b><small>Margin: Baseline → Promo</small></div>
+<div class="kpi"><b>18.28%</b><small>Avg Post-Promo Dip</small></div>
+<div class="kpi"><b>10% off (ROI 0.084)</b><small>Best Bucket</small></div>
+<div class="kpi"><b>40% off (ROI -0.387)</b><small>Worst Bucket</small></div>
+<div class="kpi"><b>Accessories Mega Clearance 40% (ROI -0.951)</b><small>Worst Campaign</small></div></div>
+<h2>Uplift by Discount Bucket</h2><img class="chart" src="../images/uplift_by_discount_bucket.png" alt="Uplift by discount bucket">
+<h2>Margin: Promotion vs Baseline</h2><img class="chart" src="../images/margin_promo_vs_baseline.png" alt="Margin promo vs baseline">
+<h2>Daily Sales Timeline (promo periods shaded)</h2><img class="chart" src="../images/sales_timeline_promo_periods.png" alt="Sales timeline with promo periods">
+<h2>Promo ROI by Campaign</h2><img class="chart" src="../images/roi_by_campaign.png" alt="ROI by campaign">
+<h2>Performance by Discount Bucket</h2><table><tr><th>discount_pct</th><th>campaigns</th><th>avg_uplift_pct</th><th>incremental_units</th><th>incremental_revenue</th><th>incremental_gross_profit</th><th>discount_cost</th><th>promo_roi</th><th>margin_pct_baseline</th><th>margin_pct_promo</th><th>avg_post_promo_dip_pct</th></tr><tr><td>10.00</td><td>3.00</td><td>30.54</td><td>520.00</td><td>292,233.85</td><td>18,428.62</td><td>218,956.26</td><td>0.08</td><td>47.08</td><td>41.19</td><td>17.96</td></tr><tr><td>20.00</td><td>5.00</td><td>54.46</td><td>2,407.00</td><td>613,359.53</td><td>-48,671.32</td><td>640,375.31</td><td>-0.08</td><td>45.31</td><td>31.63</td><td>18.77</td></tr><tr><td>30.00</td><td>2.00</td><td>106.12</td><td>1,422.00</td><td>260,857.59</td><td>-56,729.00</td><td>388,684.99</td><td>-0.15</td><td>53.42</td><td>33.43</td><td>16.54</td></tr><tr><td>40.00</td><td>2.00</td><td>55.89</td><td>1,070.00</td><td>334,351.31</td><td>-340,110.75</td><td>878,602.14</td><td>-0.39</td><td>37.86</td><td>-3.57</td><td>19.26</td></tr></table>
+<h2>Campaign Scorecard (best ROI first)</h2><table><tr><th>campaign_name</th><th>category</th><th>discount_pct</th><th>uplift_pct</th><th>incremental_gross_profit</th><th>promo_roi</th><th>margin_pct_promo</th><th>post_promo_dip_pct</th></tr><tr><td>Home Refresh Appliances 10%</td><td>Appliances</td><td>10</td><td>32.82</td><td>8,701.68</td><td>0.18</td><td>42.78</td><td>18.68</td></tr><tr><td>Audio Fest 20%</td><td>Audio</td><td>20</td><td>65.83</td><td>8,435.68</td><td>0.09</td><td>44.28</td><td>21.58</td></tr><tr><td>Winter TV Sale 10%</td><td>TVs</td><td>10</td><td>27.07</td><td>4,873.44</td><td>0.09</td><td>43.25</td><td>14.94</td></tr><tr><td>Laptop Days 10%</td><td>Laptops</td><td>10</td><td>30.59</td><td>4,853.50</td><td>0.04</td><td>38.23</td><td>20.27</td></tr><tr><td>Audio Clearance 30%</td><td>Audio</td><td>30</td><td>110.44</td><td>-4,192.20</td><td>-0.03</td><td>36.32</td><td>17.99</td></tr><tr><td>Spring Laptop Sale 20%</td><td>Laptops</td><td>20</td><td>71.67</td><td>-20,433.15</td><td>-0.07</td><td>30.49</td><td>18.18</td></tr><tr><td>Spring TV Event 20%</td><td>TVs</td><td>20</td><td>59.27</td><td>-11,809.41</td><td>-0.08</td><td>36.16</td><td>12.94</td></tr><tr><td>Kitchen Bundle Appliances 20%</td><td>Appliances</td><td>20</td><td>55.03</td><td>-11,717.63</td><td>-0.14</td><td>35.61</td><td>20.81</td></tr><tr><td>Big Screen Event 30%</td><td>TVs</td><td>30</td><td>96.57</td><td>-52,536.80</td><td>-0.20</td><td>27.03</td><td>15.10</td></tr><tr><td>Laptop Clearance 40%</td><td>Laptops</td><td>40</td><td>141.24</td><td>-289,100.94</td><td>-0.35</td><td>7.39</td><td>19.32</td></tr><tr><td>Bundle & Save Accessories 20%</td><td>Accessories</td><td>20</td><td>33.82</td><td>-13,146.81</td><td>-0.57</td><td>17.65</td><td>20.34</td></tr><tr><td>Accessories Mega Clearance 40%</td><td>Accessories</td><td>40</td><td>7.10</td><td>-51,009.81</td><td>-0.95</td><td>-9.83</td><td>19.20</td></tr></table>
+<h2>Key Insights</h2>
+<ul>
+<li><b>Only shallow discounts pay:</b> the 10% bucket is the only one with positive ROI (0.084); the best single campaign is Home Refresh Appliances 10% at ROI 0.179.</li>
+<li><b>Worst campaign:</b> Accessories Mega Clearance 40% — ROI -0.951, uplift only 7.1% and promo margin -9.83%: it sold below cost and still barely moved volume.</li>
+<li><b>Pull-forward:</b> sales dip 18.28% below baseline in the week after campaigns end — part of every uplift number is borrowed future demand.</li>
+<li><b>Margin compression:</b> gross margin falls from 45.01% at baseline to 24.11% during promotions, while total incremental gross profit is $-427,082 on $2,126,619 of discounts given away.</li>
+</ul>
+<p class="note">Method: each campaign is compared with the 28 clean days (no promo, no dip week) before it, per SKU-store-day. ROI = incremental gross profit / discount cost. Full method, assumptions and code: see README.md and analysis.py in this repo.</p>
+</main></body></html>

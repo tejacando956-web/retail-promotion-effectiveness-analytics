@@ -1,0 +1,22 @@
+kpi,value
+total_revenue_usd,38581528.48
+total_units,102737
+num_campaigns,12
+total_discount_cost_usd,2126618.7
+total_incremental_revenue_usd,1500802.28
+total_incremental_gross_profit_usd,-427082.45
+overall_promo_roi,-0.201
+avg_uplift_pct_weighted,60.38
+avg_margin_pct_baseline,45.01
+avg_margin_pct_promo,24.11
+avg_post_promo_dip_pct,18.28
+best_discount_bucket_pct,10
+best_bucket_roi,0.084
+worst_discount_bucket_pct,40
+worst_bucket_roi,-0.387
+best_campaign,Home Refresh Appliances 10%
+best_campaign_roi,0.179
+worst_campaign,Accessories Mega Clearance 40%
+worst_campaign_roi,-0.951
+worst_campaign_uplift_pct,7.1
+worst_campaign_margin_pct_promo,-9.83
