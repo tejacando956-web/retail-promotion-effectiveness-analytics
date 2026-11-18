@@ -1,0 +1,5 @@
+step,label,amount_usd,cumulative_usd
+baseline_gross_profit,Baseline gross profit (expected in promo windows),2452109.49,2452109.49
+uplift_gross_profit,Gross profit from extra units sold (at full price),1699536.25,4151645.74
+discount_cost,Discount cost given away,-2126618.7,2025027.04
+promo_gross_profit,Promo gross profit (actual in promo windows),2025027.04,2025027.04
